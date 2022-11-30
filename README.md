@@ -1,25 +1,9 @@
-# Description
+# Descrição
 
-⚡ A Vite + React starter template featuring TypeScript, Tailwind CSS & Headless UI, ESLint & Prettier, and some useful GitHub Actions.
+Feito utilizando Vite + React JS + Tailwind CSS + Typescript.
 
-View the starter template live [here](https://moovite.onrender.com).
+Usando Moovite como template [Link](https://github.com/mooship/moovite).
 
-## Getting Started
+Projeto para enaltecer e apoiar jogos indies brasileiros.
 
-_Node v16+ is required, but v18+ is recommended._
 
-💿 Click **Use this template** and select **Create a new repository**.
-
-## Deployment
-
-🚀 See Vite's page on [deploying a static site](https://vitejs.dev/guide/static-deploy.html)
-
-## Useful Links
-
-- [Tailwind CSS](https://tailwindcss.com/docs/installation)
-- [Headless UI by Tailwind Labs](https://headlessui.com/)
-- [React Docs](https://beta.reactjs.org/)
-
-## License
-
-This starter template is licensed under the permissive [MIT License](https://github.com/mooship/mooship-vite/blob/main/LICENSE).
