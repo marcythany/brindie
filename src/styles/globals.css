@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+@layer base {
+	body {
+		@apply bg-slate-900 font-Open-Sans;
+	}
+}
+
+@layer components {
+	/* Navbar */
+	nav {
+		@apply flex w-full items-center bg-slate-500 px-4 py-2;
+	}
+	.nav__wrapper {
+		@apply flex w-full justify-between space-x-2;
+	}
+	.nav__left {
+		@apply ml-2 w-1/3;
+	}
+	.nav__left-logo {
+		@apply flex p-0;
+	}
+	.nav__left-logo p {
+		@apply bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-sky-600 via-green-300 to-yellow-500 bg-clip-text text-4xl font-black capitalize text-slate-200 text-transparent;
+	}
+	.nav__left-logo span {
+		@apply mt-[8px] text-2xl font-semibold capitalize text-sky-400;
+	}
+	.nav__right {
+		@apply flex justify-between items-center w-[420px] bg-slate-400;
+	}
+	/* Menu */
+	.nav__items {
+		@apply hidden md:flex md:w-fit;
+	}
+	.nav__items ul {
+		@apply flex items-center bg-zinc-600;
+	}
+	.nav__items li {
+		@apply px-4 py-2 font-Poppins text-sm font-medium leading-5 tracking-wide;
+	}
+	.nav__items a {
+		@apply cursor-pointer;
+	}
+	.nav__items-mobile {
+		@apply m-auto flex flex-1 items-center justify-center md:hidden;
+	}
+	.nav__items-mobile a {
+		@apply m-auto flex-1 items-center justify-center p-2;
+	}
+	.nav__avatar {
+		@apply m-2 flex items-center;
+	}
+	.nav__avatar img {
+		@apply h-8 w-8 overflow-hidden rounded-full bg-fuchsia-400;
+	}
+	/* Menu End */
+	/* Navbar End */
+}
